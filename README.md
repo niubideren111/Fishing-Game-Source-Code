@@ -1,7 +1,15 @@
 <div align="center">
 
 # 🎣 捕鱼游戏完整源码 | 捕魚遊戲完整原始碼 | Fishing Game Source Code
+🎣 Arcade Fishing Game Source Code (Fish Shooting Game)  
+🎣 捕鱼游戏源码（街机打鱼游戏）  
+🎣 捕魚遊戲源碼（街機打魚遊戲）  
 
+🔥 Real arcade-style fishing game with rich effects  
+🔥 爆金币玩法 + 多炮台系统  
+🔥 High-profit mobile game system  
+
+💰 Build your own fishing game and start earning  
 **Cocos客户端 + C++服务端 | 几十种Boss + 近百种鱼 + 数十场景**
 
 [![Contact](https://img.shields.io/badge/联系-Telegram-blue.svg)](https://t.me/fox_lovemyself)
@@ -19,7 +27,17 @@
 | **简体中文** | 一套**完整的捕鱼游戏源码**，客户端使用 Cocos 引擎，服务端使用 C++。内含**几十种Boss、近百种小鱼、数十种游戏场景**，捕鱼玩法数值流程完整，产品界面美观。 |
 | **繁體中文** | 一套**完整的捕魚遊戲原始碼**，客戶端使用 Cocos 引擎，伺服器端使用 C++。內含**幾十種Boss、近百種小魚、數十種遊戲場景**，捕魚玩法數值流程完整，產品介面美觀。 |
 
----
+## 🎮 Gameplay Highlights | 玩法亮点 | 遊戲亮點
+
+- 💥 Fish shooting system（打鱼玩法）  
+- 🔫 Multi-cannon system（多炮台）  
+- 💰 Coin reward system（爆金币）  
+- 🎯 Boss fish & special effects（Boss鱼）  
+- 🌊 Arcade-style gameplay（街机玩法）  
+
+👉 Designed for addictive gameplay  
+👉 高留存玩法设计  
+👉 高留存遊戲設計  
 
 ## ✨ 核心卖点 | 核心賣點 | Key Features
 
@@ -32,7 +50,16 @@
 | 🔧 **C++服务端** | 高性能，支持高并发 |
 | 📦 **全套源码** | 客户端 + 服务端完整代码 |
 
----
+## 💰 Commercial Features | 商业能力 | 商業能力
+
+- ✔ Recharge system（充值系统）  
+- ✔ In-game currency（游戏币）  
+- ✔ Reward mechanism（奖励机制）  
+- ✔ Player retention system（留存设计）  
+
+👉 Suitable for real monetization  
+👉 支持商业盈利  
+👉 支援商業盈利  
 
 ## 🏗️ 技术架构 | 技術架構 | Tech Stack
 
@@ -119,6 +146,15 @@ A：提供。购买后可远程协助部署。
 Q6：有配套的美术资源和数值文案吗？
 A：有。可同步获取捕鱼美术资源包和数值文案（联系时请说明）。
 
+## 🔍 More Keywords
+
+fish shooting game  
+arcade fishing game  
+fish hunter game  
+fishing arcade game  
+mobile fishing game  
+捕鱼游戏源码  
+街机捕鱼游戏  
 
 
 
