@@ -118,7 +118,6 @@
 ![商场x1](https://github.com/user-attachments/assets/b4c55c18-cf4b-4377-9f7a-b2d19eec1d84)
 ![可升级](https://github.com/user-attachments/assets/ced9680c-b6e9-48b0-90d6-5d09c7516b81)
 <img width="1280" height="720" alt="聚宝盆" src="https://github.com/user-attachments/assets/1d56d5ad-cf47-48ff-90dc-eb94abf9c548" />
-![经典房间x2](https://github.com/user-attachments/assets/8491c256-6d7b-4572-919b-a91d48eae07e)
 
 ---
 
