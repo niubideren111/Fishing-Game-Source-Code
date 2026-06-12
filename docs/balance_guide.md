@@ -101,8 +101,8 @@
 
 如果你需要针对自己游戏的玩家数据做精细化调优，可通过以下方式联系我们：
 
-- **Telegram**: @alibabama401
-- **Email**: ttpoker733@gmail.com
+- **Telegram**: @fox_lovemyself
+- **Email**: zyue02561@gmail.com
 
 我们提供：玩家行为日志分析 → 数值模型拟合 → 输出优化版配置文件 的一站式服务。
 
