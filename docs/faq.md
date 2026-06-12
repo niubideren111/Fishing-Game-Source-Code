@@ -88,9 +88,7 @@ A：可以。本仓库采用 CC BY-NC-ND 4.0 许可证，这意味着：
 
 ✅ 可以：修改数值以适应你的游戏
 
-❌ 不可以：将修改后的数值系统作为独立产品转售
 
-❌ 不可以：声称这是你原创的数值体系（必须保留署名）
 
 详见仓库根目录的 LICENSE 文件。
 
@@ -121,9 +119,9 @@ A：包含：
 ### Q14：我遇到了技术问题，如何快速获得帮助？
 A：按以下优先级联系：
 
-Telegram：@alibabama401（响应最快，通常 2 小时内）
+Telegram：@fox_lovemyself（响应最快，通常 2 小时内）
 
-Email：ttpoker733@gmail.com（24 小时内回复）
+Email：zyue02561@gmail.com（24 小时内回复）
 
 联系时请附上：
 
@@ -159,8 +157,8 @@ A：数值系统为数字产品，交付后无法退货。但我们在你付款�
 如果以上 FAQ 没有解决你的问题，欢迎直接联系：
 
 联系方式	账号
-Telegram	@alibabama401
-Email	ttpoker733@gmail.com
+ - **Telegram**: @fox_lovemyself
+- **Email**: zyue02561@gmail.com
 我们通常在 24 小时内回复所有咨询。
 
 *最后更新：2026-06-12 | FAQ 版本：v2.0*
