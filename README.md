@@ -57,7 +57,7 @@
 
 | 卖点 | 说明 |
 |:---|:---|
-| 🎯 **丰富内容** | 几十种Boss + 近百种小鱼 + 数十种游戏场景 |
+| 🎯 **丰富内容** | 几十种Boss + 百种小鱼 + 数十种游戏场景 |
 | 🎮 **完整玩法** | 捕鱼数值流程完整，爽快感强 |
 | 📱 **跨平台** | 支持 iOS / Android |
 | 🖥️ **Cocos客户端** | 轻量高效，画面流畅 |
@@ -122,6 +122,11 @@
 ![商场x1](https://github.com/user-attachments/assets/b4c55c18-cf4b-4377-9f7a-b2d19eec1d84)
 ![可升级](https://github.com/user-attachments/assets/ced9680c-b6e9-48b0-90d6-5d09c7516b81)
 <img width="1280" height="720" alt="聚宝盆" src="https://github.com/user-attachments/assets/1d56d5ad-cf47-48ff-90dc-eb94abf9c548" />
+<img width="955" height="544" alt="微信图片_20260820145238" src="https://github.com/user-attachments/assets/6264c2b6-40e9-44c0-abcb-b389f2646186" />
+<img width="957" height="537" alt="微信图片_20260820145223" src="https://github.com/user-attachments/assets/4469ed27-3c83-4c00-9116-04485d6929fe" />
+<img width="1280" height="720" alt="x13" src="https://github.com/user-attachments/assets/1c34d574-0d27-48d4-bd17-8ce4820ab662" />
+<img width="1280" height="720" alt="x11 - 副本" src="https://github.com/user-attachments/assets/e9dac5d1-24db-4660-abbc-a9ce4c1865c4" />
+<img width="1280" height="720" alt="x1s - 副本 - 副本" src="https://github.com/user-attachments/assets/d26a408b-b2fc-43eb-8fbe-c31824e016ab" />
 
 ---
 
