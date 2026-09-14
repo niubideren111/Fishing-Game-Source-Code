@@ -1,19 +1,10 @@
 <div align="center">
-# 🎣 捕鱼游戏完整源码 | 捕魚遊戲完整原始碼 |捕鱼源码|街机捕鱼|打鱼游戏| Fishing Game Source Code
-🔥 Arcade Fish Shooting Game (High Retention & Monetization)  
-🔥 Classic 捕鱼游戏源码（高留存 + 高收益）  
-🔥 經典捕魚遊戲源碼（高留存 + 高收益）  
-🔥 Used in real fishing game projects (commercial ready)
-💰 Real commercial fishing game system  
-💰 可用于真实运营项目  
-💰 可用於真實運營項目  
-🎣 Arcade Fishing Game Source Code (Fish Shooting Game)  
-🎣 捕鱼游戏源码（街机打鱼游戏）  
-🎣 捕魚遊戲源碼（街機打魚遊戲）  
+# 🎣 捕鱼游戏源码｜捕鱼源码|Fishing Game Source Code
+面向街机捕鱼玩法的客户端与服务器代码资料，展示房间选择、炮台养成和 Boss 战斗效果。公开内容包含 JavaScript 炮台配置、游戏监控文件、C++ 控制逻辑和通信协议文档。
 
-🔥 Real arcade-style fishing game with rich effects  
-🔥 爆金币玩法 + 多炮台系统  
-🔥 High-profit mobile game system  
+**Fishing Game Source Code** — Arcade fishing game materials featuring JavaScript cannon configuration, C++ server excerpts and communication documents.
+
+捕魚遊戲源碼，Cocos 客戶端、C++ 服務端與炮台配置
 
 💰 Build your own fishing game and start earning  
 **Cocos客户端 + C++服务端 | 几十种Boss + 近百种鱼 + 数十场景**
@@ -98,12 +89,6 @@
 | 💣 **道具系统** | 炸弹、锁定、冰冻等 |
 | 📊 **数值体系** | 完整的捕鱼数值流程 |
 
-## 📞 Contact | 联系方式 | 聯絡方式
-
-* Telegram: @fox_lovemyself
-* Email:zyue02561@gmail.com
-
-💬 Fast response within 24h
 
 ## 📸 界面截图 | 界面截圖 | Screenshots
 
@@ -131,22 +116,6 @@
 ---
 
 
----
-
-## 🚀 快速体验 | 快速體驗 | Quick Start
-
-### 方式一：直接体验
-
-如需获取可运行的 Demo 包，请联系获取。
-
-### 方式二：本地编译运行（需完整源码）
-
-```bash
-# 1. 获取源码后，导入 Cocos Creator
-# 2. 配置服务端环境
-# 3. 编译运行
-📞 获取完整源码 | 獲取完整原始碼 | How to Get
-如需获取完整的捕鱼游戏源码（客户端 + 服务端 + 部署文档），请联系：
 
 
 ❓ 常见问题 | 常見問題 | FAQ
@@ -167,6 +136,25 @@ A：提供。购买后可远程协助部署。
 
 Q6：有配套的美术资源和数值文案吗？
 A：有。可同步获取捕鱼美术资源包和数值文案（联系时请说明）。
+
+## 相关项目
+
+- [Fishing-Game-Art-Assets](https://github.com/niubideren111/Fishing-Game-Art-Assets)
+- [Chess-and-Card-Game-Product-Design-Copy](https://github.com/niubideren111/Chess-and-Card-Game-Product-Design-Copy)
+
+## 项目咨询
+
+- Telegram：[fox_lovemyself](https://t.me/fox_lovemyself)
+- GitHub：[捕鱼游戏源码](https://github.com/niubideren111/Fishing-Game-Source-Code)
+
+
+
+## 许可
+
+请按仓库现有 [LICENSE](LICENSE) 与 [License.md](License.md) 使用公开文件。商业工程、美术资源和完整部署资料的授权范围以书面约定为准。
+
+
+
 
 ## 🔍 More Keywords
 
