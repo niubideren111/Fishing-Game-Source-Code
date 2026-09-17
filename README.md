@@ -1,6 +1,13 @@
 <div align="center">
-# 🎣 捕鱼游戏源码｜捕鱼源码|Fishing Game Source Code
+# 捕鱼源码｜Cocos 客户端、C++ 服务端与炮台配置|Fishing Game Source Code
 
+> 中文简体 · 中文繁體 · English 多语言产品与源码资料
+
+[简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [English](README.en.md) · [产品页面](https://niubideren111.github.io/Fishing-Game-Source-Code/zh-cn/)
+
+面向街机捕鱼玩法的客户端与服务器代码资料，展示房间选择、炮台养成和 Boss 战斗效果。公开内容包含 JavaScript 炮台配置、游戏监控文件、C++ 控制逻辑和通信协议文档。
+
+**捕鱼源码 · 捕鱼游戏源码 · Cocos捕鱼源码 · C++捕鱼服务端**
 
   
 面向街机捕鱼玩法的客户端与服务器代码资料，展示房间选择、炮台养成和 Boss 战斗效果。公开内容包含 JavaScript 炮台配置、游戏监控文件、C++ 控制逻辑和通信协议文档。
@@ -14,7 +21,7 @@
 
 [![Contact](https://img.shields.io/badge/联系-Telegram-blue.svg)](https://t.me/fox_lovemyself)
 
-**简体中文 · 繁體中文**
+
 
 </div>
 
@@ -22,10 +29,8 @@
 
 ## 📖 产品简介 | 產品簡介 | Overview
 
-| 语言 | 说明 |
-|:---|:---|
-| **简体中文** | 一套**完整的捕鱼游戏源码**，客户端使用 Cocos 引擎，服务端使用 C++。内含**几十种Boss、近百种小鱼、数十种游戏场景**，捕鱼玩法数值流程完整，产品界面美观。 |
-| **繁體中文** | 一套**完整的捕魚遊戲原始碼**，客戶端使用 Cocos 引擎，伺服器端使用 C++。內含**幾十種Boss、近百種小魚、數十種遊戲場景**，捕魚玩法數值流程完整，產品介面美觀。 |
+
+一套**完整的捕鱼游戏源码**，客户端使用 Cocos 引擎，服务端使用 C++。内含**几十种Boss、近百种小鱼、数十种游戏场景**，捕鱼玩法数值流程完整，产品界面美观。 |
 
 ## 🎮 Gameplay Highlights | 玩法亮点 | 遊戲亮點
 
@@ -118,6 +123,16 @@
 
 ---
 
+## 公开源码与资料
+
+| 文件 | 说明 |
+|---|---|
+| [BYCannonConfig.js](BYCannonConfig.js) | 炮台基础配置 |
+| [BYCannonLevelConfig.js](BYCannonLevelConfig.js) | 炮台等级配置 |
+| [GameMonitor.js](GameMonitor.js) | 客户端游戏监控 |
+| [bombctrl.cpp](bombctrl.cpp) | C++ 控制逻辑片段 |
+| [客户端与服务器通信协议.md](%E5%AE%A2%E6%88%B7%E7%AB%AF%E4%B8%8E%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%80%9A%E4%BF%A1%E5%8D%8F%E8%AE%AE.md) | 客户端与服务端协议 |
+| [服务器间通信协议.md](%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%97%B4%E9%80%9A%E4%BF%A1%E5%8D%8F%E8%AE%AE.md) | 服务间协议 |
 
 
 
