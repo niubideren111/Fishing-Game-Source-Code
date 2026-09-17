@@ -6,6 +6,29 @@ Arcade fishing game source materials covering room selection, cannon progression
 
 **fishing game source code · Cocos fishing game · C++ fishing game server · arcade fish shooting source**
 
+## 🏗️ Tech Stack
+
+| Module | Technology |
+|:---|:---|
+| Client Engine | Cocos Creator / Cocos2d-x |
+| Client Language | Lua / C++ |
+| Server Language | C++ |
+| Database | MySQL + Redis |
+| Network Communication | WebSocket / TCP |
+
+---
+
+## 🎮 Game Content
+
+| Content Type | Quantity |
+|:---|:---|
+| 👾 **Boss Types** | Dozens of types |
+| 🐟 **Small Fish Types** | Nearly a hundred types |
+| 🏞️ **Game Scenes** | Dozens of types |
+| 🔫 **Turret System** | Complete turret upgrade system |
+| 💣 **Item System** | Bombs, lock-on, freeze, etc. |
+| 📊 **Numeric System** | Complete fishing numeric flow |
+
 ## What this repository presents
 
 ### Cannon configuration
