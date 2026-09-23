@@ -1,5 +1,4 @@
-<div align="center">
-# 捕鱼源码｜Cocos 客户端、C++ 服务端与炮台配置|Fishing Game Source Code
+# 捕鱼游戏源码｜街机捕鱼、Cocos 客户端与 C++ 服务端资料
 
 > 中文简体 · 中文繁體 · English 多语言产品与源码资料
 
@@ -7,121 +6,81 @@
 
 面向街机捕鱼玩法的客户端与服务器代码资料，展示房间选择、炮台养成和 Boss 战斗效果。公开内容包含 JavaScript 炮台配置、游戏监控文件、C++ 控制逻辑和通信协议文档。
 
-**捕鱼源码 · 捕鱼游戏源码 · Cocos捕鱼源码 · C++捕鱼服务端**
+**捕鱼源码 · 捕鱼游戏源码 · 街机捕鱼源码 · 打鱼游戏源码 · Cocos 捕鱼源码**
 
-  
-面向街机捕鱼玩法的客户端与服务器代码资料，展示房间选择、炮台养成和 Boss 战斗效果。公开内容包含 JavaScript 炮台配置、游戏监控文件、C++ 控制逻辑和通信协议文档。
+## 核心卖点
 
-**Fishing Game Source Code** — Arcade fishing game materials featuring JavaScript cannon configuration, C++ server excerpts and communication documents.
+- **街机捕鱼产品形态**：截图覆盖房间选择、快速开始、炮台养成、锻造和实时战斗场景。
+- **炮台配置体系**：公开炮台基础、等级、列表和皮肤配置，便于理解成长字段之间的关系。
+- **客户端与服务端资料**：JavaScript 客户端文件配合 C++ 控制逻辑，展示前后端协作线索。
+- **通信协议文档**：提供客户端与服务器、服务器之间的二进制消息及 MsgPack 数据说明。
+- **战斗控制片段**：包含炸弹、宝石和其他控制逻辑文件，可用于研究奖励和战斗流程。
+- **图文多语言页面**：提供简体中文、繁體中文、English README 和 GitHub Pages 展示页。
 
-捕魚遊戲源碼，Cocos 客戶端、C++ 服務端與炮台配置
+## 技术架构
 
-💰 Build your own fishing game and start earning  
-**Cocos客户端 + C++服务端 | 几十种Boss + 近百种鱼 + 数十场景**
+| 层级 | 公开技术与文件 |
+|---|---|
+| Cocos 客户端资料 | JavaScript 配置、`main.js`、`GameMonitor.js` 及 Unity 风格 `.meta` 文件 |
+| 游戏配置 | `BYCannonConfig.js`、等级、列表、皮肤和表情配置 |
+| C++ 逻辑片段 | `bombctrl.cpp`、`rb_ctrl.cpp`、`wctrl35.cpp`、`wctrlbaoshi.cpp` |
+| 通信协议 | 固定包头、二进制字节流、MsgPack 包体及服务编号约定 |
+| 构建资料 | `Makefile` 与公开代码文件 |
+| 产品资料 | 房间、养成、锻造、炮台和战斗效果截图 |
 
-[![Contact](https://img.shields.io/badge/联系-Telegram-blue.svg)](https://t.me/fox_lovemyself)
+资料关系可概括为：客户端配置和监控负责表现与状态入口，通信协议连接游戏服务，C++ 文件承接部分战斗及控制逻辑。完整构建仍需确认引擎版本、依赖、资源、入口工程和服务器环境。
 
+## 游戏内容
 
+| 内容 | 公开资料呈现 |
+|---|---|
+| 房间选择 | 多个房间入口及快速开始界面 |
+| 炮台系统 | 炮台基础属性、等级、列表、皮肤和外观配置 |
+| 养成与锻造 | 炮台成长及锻造产品界面 |
+| 捕鱼战斗 | 鱼群、炮台发射、命中特效及奖励反馈画面 |
+| Boss 场景 | 产品截图展示大型目标与战斗效果 |
+| 炸弹与特殊奖励 | C++ 炸弹使用、宝石和控制逻辑片段 |
+| 社交表达 | `BYEmojiConfig.js` 表情配置资料 |
+| 排行资料 | 公开排行榜表格及相关产品数据资料 |
 
-</div>
+## 玩家体验
 
----
+- **进入路径清楚**：房间选择和快速开始缩短进入牌局的步骤。
+- **成长目标可见**：炮台等级、皮肤、养成和锻造形成持续升级目标。
+- **战斗反馈直观**：炮弹、命中、鱼群和奖励特效强化即时反馈。
+- **阶段变化丰富**：普通捕鱼、特殊奖励与 Boss 场景形成节奏变化。
+- **配置便于调优**：炮台与等级配置可作为体验平衡和版本迭代的阅读入口。
 
-## 📖 产品简介 | 產品簡介 | Overview
+玩家体验描述来自公开截图和配置结构，实际手感、性能与数值平衡需要在完整工程中通过真机和服务器联调验证。
 
+## 项目重点
 
-一套**完整的捕鱼游戏源码**，客户端使用 Cocos 引擎，服务端使用 C++。内含**几十种Boss、近百种小鱼、数十种游戏场景**，捕鱼玩法数值流程完整，产品界面美观。 |
+### 炮台与养成配置
 
-## 🎮 Gameplay Highlights | 玩法亮点 | 遊戲亮點
+从 BYCannonConfig.js、等级和皮肤配置中查看字段及配置关系。
 
-- 💥 Fish shooting system（打鱼玩法）  
-- 🔫 Multi-cannon system（多炮台）  
-- 💰 Coin reward system（爆金币）  
-- 🎯 Boss fish & special effects（Boss鱼）  
-- 🌊 Arcade-style gameplay（街机玩法）  
+### 客户端与服务器协作
 
-👉 Designed for addictive gameplay  
-👉 高留存玩法设计  
-👉 高留存遊戲設計  
-## 💥 Player Experience | 玩家体验 | 玩家體驗
+结合 GameMonitor.js 与通信协议文档理解消息流转。
 
-- 💰 Big coin rewards（高爆金币）  
-- 🎯 High hit rate gameplay（高命中率）  
-- 🔥 Exciting arcade effects（爽快特效）  
+### 战斗效果与控制逻辑
 
-👉 Designed for addictive gameplay  
-👉 专为高留存设计  
-👉 專為高留存設計  
-## ✨ 核心卖点 | 核心賣點 | Key Features
+房间、养成与 Boss 截图配合 C++ 控制文件，展示玩法与实现资料。
 
-| 卖点 | 说明 |
-|:---|:---|
-| 🎯 **丰富内容** | 几十种Boss + 百种小鱼 + 数十种游戏场景 |
-| 🎮 **完整玩法** | 捕鱼数值流程完整，爽快感强 |
-| 📱 **跨平台** | 支持 iOS / Android |
-| 🖥️ **Cocos客户端** | 轻量高效，画面流畅 |
-| 🔧 **C++服务端** | 高性能，支持高并发 |
-| 📦 **全套源码** | 客户端 + 服务端完整代码 |
+## 资料阅读与核对方式
 
-## 💰 Commercial Features | 商业能力 | 商業能力
+1. **先确认产品形态**：依次查看截图和图注，确认产品类型与可见功能流程。
+2. **再核对文件证据**：直接打开下方列出的源码或文档，不只依赖功能描述。
+3. **检查可构建范围**：确认准备运行的部分是否具备依赖、资源、配置和启动脚本。
+4. **确认授权**：阅读仓库许可；商业素材及完整工程交付应另行取得书面授权。
 
-- ✔ Recharge system（充值系统）  
-- ✔ In-game currency（游戏币）  
-- ✔ Reward mechanism（奖励机制）  
-- ✔ Player retention system（留存设计）  
+## 产品截图
 
-👉 Suitable for real monetization  
-👉 支持商业盈利  
-👉 支援商業盈利  
+![捕鱼游戏房间选择与快速开始界面](docs/assets/seo/fishing-game-source-code-01.jpg)
 
-## 🏗️ 技术架构 | 技術架構 | Tech Stack
+![捕鱼游戏养成与锻造界面](docs/assets/seo/fishing-game-source-code-02.jpg)
 
-| 模块 | 技术 |
-|:---|:---|
-| 客户端引擎 | Cocos Creator / Cocos2d-x |
-| 客户端语言 |lua/ C++ |
-| 服务端语言 | C++ |
-| 数据库 | MySQL + Redis |
-| 网络通信 | WebSocket / TCP |
-
----
-
-## 🎮 游戏内容 | 遊戲內容 | Game Content
-
-| 内容类型 | 数量 |
-|:---|:---|
-| 👾 **Boss种类** | 几十种 |
-| 🐟 **小鱼种类** | 近百种 |
-| 🏞️ **游戏场景** | 数十种 |
-| 🔫 **炮台系统** | 完整炮台升级体系 |
-| 💣 **道具系统** | 炸弹、锁定、冰冻等 |
-| 📊 **数值体系** | 完整的捕鱼数值流程 |
-
-
-## 📸 界面截图 | 界面截圖 | Screenshots
-
-
-
-| 游戏主界面 | Boss战 | 炮台升级 |
-|:---:|:---:|:---:|
-![经典房间x1](https://github.com/user-attachments/assets/28091763-3424-4ba4-ade4-2d9e34b25a8e)
-![锻造x3](https://github.com/user-attachments/assets/91dc12c9-f0b7-4b55-92d9-32f12aeda848)
-![宠物竖线技能备注](https://github.com/user-attachments/assets/edf9641c-9562-42fb-a101-051339e8bae2)
-![x5](https://github.com/user-attachments/assets/5c6b1591-5cb1-4bba-a6dc-d13112c3accc)
-![x2](https://github.com/user-attachments/assets/6e6e08d0-bdb8-46d1-ae3d-d1ff407b2db1)
-![x1](https://github.com/user-attachments/assets/a5aca9c8-34e8-4183-ab8b-a33c7d85d33a)
-![战斗x1](https://github.com/user-attachments/assets/37245653-2a51-45b5-b8ea-e2e007ebe0ae)
-![商场x3](https://github.com/user-attachments/assets/836723d3-7fc3-4392-a4d7-a128e9a88662)
-![商场x1](https://github.com/user-attachments/assets/b4c55c18-cf4b-4377-9f7a-b2d19eec1d84)
-![可升级](https://github.com/user-attachments/assets/ced9680c-b6e9-48b0-90d6-5d09c7516b81)
-<img width="1280" height="720" alt="聚宝盆" src="https://github.com/user-attachments/assets/1d56d5ad-cf47-48ff-90dc-eb94abf9c548" />
-<img width="955" height="544" alt="微信图片_20260820145238" src="https://github.com/user-attachments/assets/6264c2b6-40e9-44c0-abcb-b389f2646186" />
-<img width="957" height="537" alt="微信图片_20260820145223" src="https://github.com/user-attachments/assets/4469ed27-3c83-4c00-9116-04485d6929fe" />
-<img width="1280" height="720" alt="x13" src="https://github.com/user-attachments/assets/1c34d574-0d27-48d4-bd17-8ce4820ab662" />
-<img width="1280" height="720" alt="x11 - 副本" src="https://github.com/user-attachments/assets/e9dac5d1-24db-4660-abbc-a9ce4c1865c4" />
-<img width="1280" height="720" alt="x1s - 副本 - 副本" src="https://github.com/user-attachments/assets/d26a408b-b2fc-43eb-8fbe-c31824e016ab" />
-
----
+![捕鱼游戏战斗场景与炮台特效](docs/assets/seo/fishing-game-source-code-03.jpg)
 
 ## 公开源码与资料
 
@@ -134,57 +93,35 @@
 | [客户端与服务器通信协议.md](%E5%AE%A2%E6%88%B7%E7%AB%AF%E4%B8%8E%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%80%9A%E4%BF%A1%E5%8D%8F%E8%AE%AE.md) | 客户端与服务端协议 |
 | [服务器间通信协议.md](%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%97%B4%E9%80%9A%E4%BF%A1%E5%8D%8F%E8%AE%AE.md) | 服务间协议 |
 
+## 开始阅读
 
+```bash
+git clone https://github.com/niubideren111/Fishing-Game-Source-Code.git
+cd Fishing-Game-Source-Code
+```
 
-❓ 常见问题 | 常見問題 | FAQ
-Q1：这套源码包含哪些内容？
-A：包含完整的 Cocos 客户端源码 + C++ 服务端源码 + 部署文档。
+## 常见问题
 
-Q2：游戏内容有多少？
-A：几十种Boss、近百种小鱼、数十种游戏场景。
+### 公开客户端文件使用什么语言？
 
-Q3：支持哪些平台？
-A：iOS 和 Android。
+当前公开配置和逻辑文件主要为 JavaScript，服务器片段为 C++；产品说明采用 Cocos 客户端定位。
 
-Q4：可以二次开发吗？
-A：可以。源码无加密，支持功能扩展和 UI 定制。
+### 想了解炮台系统从哪里开始？
 
-Q5：提供部署服务吗？
-A：提供。购买后可远程协助部署。
+先阅读 BYCannonConfig.js，再对照等级、列表和皮肤配置；通信流程查看协议文档。
 
-Q6：有配套的美术资源和数值文案吗？
-A：有。可同步获取捕鱼美术资源包和数值文案（联系时请说明）。
+## 后续资料完善方向
+
+补充 Cocos 具体版本、可公开的目录结构、配置字段解释及协议请求响应样例；大资源包放 Releases。 后续更新还应加入版本化依赖清单、经过验证的构建或导入步骤、简明架构/产品流程图，以及能对应真实文件变化的版本记录。大型授权资源可放入 GitHub Releases 并提供校验值，不能提交密钥、生产地址或用户数据。
 
 ## 相关项目
 
 - [Fishing-Game-Art-Assets](https://github.com/niubideren111/Fishing-Game-Art-Assets)
 - [Chess-and-Card-Game-Product-Design-Copy](https://github.com/niubideren111/Chess-and-Card-Game-Product-Design-Copy)
 
-## 项目咨询
+## 资料范围与许可
 
-- Telegram：[fox_lovemyself](https://t.me/fox_lovemyself)
-- GitHub：[捕鱼游戏源码](https://github.com/niubideren111/Fishing-Game-Source-Code)
+公开仓库提供代码片段、配置表、协议文档和产品截图；不将当前文件集合描述为可直接启动的完整游戏工程。 公开内容以实际文件、依赖和许可为准，不承诺搜索排名、直接上线或固定性能结果。
 
-
-
-## 许可
-
-请按仓库现有 [LICENSE](LICENSE) 与 [License.md](License.md) 使用公开文件。商业工程、美术资源和完整部署资料的授权范围以书面约定为准。
-
-
-
-
-## 🔍 More Keywords
-
-fish shooting game  
-arcade fishing game  
-fish hunter game  
-fishing arcade game  
-mobile fishing game  
-捕鱼游戏源码  
-街机捕鱼游戏
-
-打鱼游戏源码  
-
-
-
+- Telegram: [@fox_lovemyself](https://t.me/fox_lovemyself)
+- GitHub: [Fishing-Game-Source-Code](https://github.com/niubideren111/Fishing-Game-Source-Code)

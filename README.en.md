@@ -6,28 +6,50 @@ Arcade fishing game source materials covering room selection, cannon progression
 
 **fishing game source code · Cocos fishing game · C++ fishing game server · arcade fish shooting source**
 
-## 🏗️ Tech Stack
+## Core selling points
 
-| Module | Technology |
-|:---|:---|
-| Client Engine | Cocos Creator / Cocos2d-x |
-| Client Language | Lua / C++ |
-| Server Language | C++ |
-| Database | MySQL + Redis |
-| Network Communication | WebSocket / TCP |
+- **Arcade fish-shooting product:** screenshots cover room selection, quick start, cannon progression, forging and live battle scenes.
+- **Cannon configuration system:** public base, level, list and skin configuration files expose progression relationships.
+- **Client and server material:** JavaScript client files and selected C++ control logic provide integration references.
+- **Protocol documentation:** binary messaging and MsgPack payload notes for client/server and server/server communication.
+- **Battle-control excerpts:** bomb, gem and other control files offer entry points for studying rewards and battle flow.
+- **Illustrated multilingual pages:** Simplified Chinese, Traditional Chinese and English READMEs and Pages content.
 
----
+## Technical architecture
 
-## 🎮 Game Content
+| Layer | Public technology and files |
+|---|---|
+| Cocos client material | JavaScript configuration, `main.js`, `GameMonitor.js` and Unity-style `.meta` files |
+| Game configuration | `BYCannonConfig.js`, cannon level, list, skin and emoji configuration |
+| C++ logic excerpts | `bombctrl.cpp`, `rb_ctrl.cpp`, `wctrl35.cpp`, `wctrlbaoshi.cpp` |
+| Communication | Fixed headers, binary byte streams, MsgPack payloads and service-number conventions |
+| Build material | `Makefile` and public code files |
+| Product references | Room, progression, forging, cannon and battle screenshots |
 
-| Content Type | Quantity |
-|:---|:---|
-| 👾 **Boss Types** | Dozens of types |
-| 🐟 **Small Fish Types** | Nearly a hundred types |
-| 🏞️ **Game Scenes** | Dozens of types |
-| 🔫 **Turret System** | Complete turret upgrade system |
-| 💣 **Item System** | Bombs, lock-on, freeze, etc. |
-| 📊 **Numeric System** | Complete fishing numeric flow |
+The material suggests a flow where client configuration and monitoring provide presentation and state entry points, protocol documents connect game services, and C++ files implement selected battle and control behavior. A complete build still requires the exact engine version, dependencies, assets, entry project and server environment.
+
+## Game content
+
+| Content | What the public material shows |
+|---|---|
+| Room selection | Multiple room entries and a quick-start screen |
+| Cannon system | Base attributes, levels, lists, skins and appearance configuration |
+| Progression and forging | Cannon progression and forging product screens |
+| Fish-shooting battle | Fish groups, cannon fire, hit effects and reward feedback |
+| Boss encounters | Large targets and battle effects shown in screenshots |
+| Bombs and special rewards | Selected C++ bomb, gem and control logic |
+| Social expression | `BYEmojiConfig.js` emoji configuration |
+| Ranking material | A public ranking workbook and related product data |
+
+## Player experience
+
+- **Clear entry path:** room selection and quick start reduce steps before play.
+- **Visible progression:** cannon levels, skins, progression and forging provide upgrade goals.
+- **Immediate battle feedback:** projectiles, hits, fish groups and reward effects communicate results.
+- **Varied pacing:** regular fishing, special rewards and boss scenes create distinct phases.
+- **Tunable configuration:** cannon and level files provide practical entry points for balance iteration.
+
+Player-experience notes are based on public screenshots and configuration structure. Controls, performance and numerical balance require validation with the complete project, devices and connected servers.
 
 ## What this repository presents
 
