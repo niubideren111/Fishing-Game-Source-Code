@@ -30,6 +30,19 @@
 
 资料关系可概括为：客户端配置和监控负责表现与状态入口，通信协议连接游戏服务，C++ 文件承接部分战斗及控制逻辑。完整构建仍需确认引擎版本、依赖、资源、入口工程和服务器环境。
 
+```mermaid
+flowchart LR
+  A[房间、炮台与养成界面] --> B[Cocos / JavaScript 客户端]
+  C[炮台、等级、皮肤与表情配置] --> B
+  B --> D[二进制协议与 MsgPack]
+  D --> E[游戏服务与房间状态]
+  E --> F[C++ 战斗控制逻辑]
+  F --> G[鱼群、Boss、炸弹与奖励反馈]
+  G --> B
+```
+
+该架构图只表达公开文件可以证明的模块关系。当前仓库是源码片段、配置、协议和产品资料集合；可运行的完整工程仍需补齐指定引擎版本、资源、第三方依赖、服务器入口和环境配置。
+
 ## 游戏内容
 
 | 内容 | 公开资料呈现 |
@@ -76,11 +89,11 @@
 
 ## 产品截图
 
-![捕鱼游戏房间选择与快速开始界面](docs/assets/seo/fishing-game-source-code-01.jpg)
+| 房间选择与快速开始 | 炮台养成与锻造 |
+|---|---|
+| ![捕鱼游戏房间选择与快速开始界面](docs/assets/seo/fishing-game-source-code-01.jpg) | ![捕鱼游戏养成与锻造界面](docs/assets/seo/fishing-game-source-code-02.jpg) |
 
-![捕鱼游戏养成与锻造界面](docs/assets/seo/fishing-game-source-code-02.jpg)
-
-![捕鱼游戏战斗场景与炮台特效](docs/assets/seo/fishing-game-source-code-03.jpg)
+![捕鱼游戏战斗场景、鱼群、炮台与命中特效](docs/assets/seo/fishing-game-source-code-03.jpg)
 
 ## 公开源码与资料
 
